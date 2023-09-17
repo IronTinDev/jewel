@@ -1,0 +1,44 @@
+#carousel {
+    /* margin-top: 10%; */
+}
+.container-fluid {
+    padding-top: 8rem !important;
+    padding-bottom: 2rem;
+}
+footer {
+    background-color: #5dc8d6;
+}
+.btn-primary {
+    background-color: #34adbd;
+}
+.jumbotron {
+    padding-top: 5rem;
+    background-color: #ffff;
+}
+
+#product {
+    /* padding-top: 3rem; */
+    background-color: #5dc8d6;
+}
+
+/* WhatsApp Floating Button CSS */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.whatsapp-float img {
+    width: 60px; /* Sesuaikan dengan ukuran yang Anda inginkan */
+    height: 60px; /* Sesuaikan dengan ukuran yang Anda inginkan */
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: #25d366; /* Warna latar belakang tombol WhatsApp */
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.whatsapp-float img:hover {
+    transform: scale(1.1); /* Efek perbesar saat hover */
+}
