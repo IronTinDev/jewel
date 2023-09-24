@@ -31,7 +31,7 @@ Route::post('/logout',function(){
 })->name('logout');
 
 Route::get('/login',[LoginController::class,'login'])->name('login');
-Route::post('/login',[LoginController::class,'authenticate'])->name('login');
+Route::post('/login',[LoginController::class,'authenticate'])->name('login.store');
 
 
 
